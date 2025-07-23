@@ -1,0 +1,22 @@
+{
+  "name": "node-mysql-cpanel",
+  "version": "1.0.0",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.0.1",
+    "express": "^4.21.2",
+    "mysql2": "^3.6.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^4.17.23",
+    "@types/node": "^20.5.9",
+    "nodemon": "^3.0.1",
+    "typescript": "^5.1.6"
+  }
+}
